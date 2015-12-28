@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993301E51C30E884004F5B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993301E41C30E884004F5B04 /* AppDelegate.swift */; };
+		993301E71C30E884004F5B04 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993301E61C30E884004F5B04 /* ViewController.swift */; };
+		993301EA1C30E884004F5B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993301E81C30E884004F5B04 /* Main.storyboard */; };
+		993301EC1C30E884004F5B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 993301EB1C30E884004F5B04 /* Assets.xcassets */; };
+		993301EF1C30E884004F5B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 993301ED1C30E884004F5B04 /* LaunchScreen.storyboard */; };
+		993301F71C30F0D5004F5B04 /* In The End Linkin Park.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 993301F61C30F0D5004F5B04 /* In The End Linkin Park.mp3 */; };
+		993301F91C30F0E1004F5B04 /* Creep Radiohead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 993301F81C30F0E1004F5B04 /* Creep Radiohead.mp3 */; };
+		993301FB1C30F0EE004F5B04 /* Stay Rihanna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 993301FA1C30F0EE004F5B04 /* Stay Rihanna.mp3 */; };
+		993301FD1C30F0F6004F5B04 /* Coldplay The Scientist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 993301FC1C30F0F6004F5B04 /* Coldplay The Scientist.mp3 */; };
+		993302011C30F2A5004F5B04 /* Blur - Song 2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 993302001C30F2A5004F5B04 /* Blur - Song 2.mp3 */; };
+		993302031C30F4A0004F5B04 /* linkin-park.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 993302021C30F4A0004F5B04 /* linkin-park.jpg */; };
+		993302051C30F4A8004F5B04 /* radiohead.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 993302041C30F4A8004F5B04 /* radiohead.jpg */; };
+		993302071C30F4B1004F5B04 /* rihanna.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 993302061C30F4B1004F5B04 /* rihanna.jpg */; };
+		993302091C30F4BB004F5B04 /* song2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 993302081C30F4BB004F5B04 /* song2.jpg */; };
+		9933020B1C30F4C3004F5B04 /* coldplay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9933020A1C30F4C3004F5B04 /* coldplay.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		993301E11C30E884004F5B04 /* Reproductor5songs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reproductor5songs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993301E41C30E884004F5B04 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		993301E61C30E884004F5B04 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		993301E91C30E884004F5B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		993301EB1C30E884004F5B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		993301EE1C30E884004F5B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		993301F01C30E884004F5B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		993301F61C30F0D5004F5B04 /* In The End Linkin Park.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "In The End Linkin Park.mp3"; sourceTree = "<group>"; };
+		993301F81C30F0E1004F5B04 /* Creep Radiohead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Creep Radiohead.mp3"; sourceTree = "<group>"; };
+		993301FA1C30F0EE004F5B04 /* Stay Rihanna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Stay Rihanna.mp3"; sourceTree = "<group>"; };
+		993301FC1C30F0F6004F5B04 /* Coldplay The Scientist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Coldplay The Scientist.mp3"; sourceTree = "<group>"; };
+		993302001C30F2A5004F5B04 /* Blur - Song 2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Blur - Song 2.mp3"; sourceTree = "<group>"; };
+		993302021C30F4A0004F5B04 /* linkin-park.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "linkin-park.jpg"; sourceTree = "<group>"; };
+		993302041C30F4A8004F5B04 /* radiohead.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = radiohead.jpg; sourceTree = "<group>"; };
+		993302061C30F4B1004F5B04 /* rihanna.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rihanna.jpg; sourceTree = "<group>"; };
+		993302081C30F4BB004F5B04 /* song2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = song2.jpg; sourceTree = "<group>"; };
+		9933020A1C30F4C3004F5B04 /* coldplay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coldplay.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993301DE1C30E884004F5B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993301D81C30E884004F5B04 = {
+			isa = PBXGroup;
+			children = (
+				993301E31C30E884004F5B04 /* Reproductor5songs */,
+				993301E21C30E884004F5B04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		993301E21C30E884004F5B04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993301E11C30E884004F5B04 /* Reproductor5songs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		993301E31C30E884004F5B04 /* Reproductor5songs */ = {
+			isa = PBXGroup;
+			children = (
+				9933020A1C30F4C3004F5B04 /* coldplay.jpg */,
+				993302081C30F4BB004F5B04 /* song2.jpg */,
+				993302061C30F4B1004F5B04 /* rihanna.jpg */,
+				993302041C30F4A8004F5B04 /* radiohead.jpg */,
+				993302021C30F4A0004F5B04 /* linkin-park.jpg */,
+				993301FC1C30F0F6004F5B04 /* Coldplay The Scientist.mp3 */,
+				993301FA1C30F0EE004F5B04 /* Stay Rihanna.mp3 */,
+				993302001C30F2A5004F5B04 /* Blur - Song 2.mp3 */,
+				993301F81C30F0E1004F5B04 /* Creep Radiohead.mp3 */,
+				993301F61C30F0D5004F5B04 /* In The End Linkin Park.mp3 */,
+				993301E41C30E884004F5B04 /* AppDelegate.swift */,
+				993301E61C30E884004F5B04 /* ViewController.swift */,
+				993301E81C30E884004F5B04 /* Main.storyboard */,
+				993301EB1C30E884004F5B04 /* Assets.xcassets */,
+				993301ED1C30E884004F5B04 /* LaunchScreen.storyboard */,
+				993301F01C30E884004F5B04 /* Info.plist */,
+			);
+			path = Reproductor5songs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993301E01C30E884004F5B04 /* Reproductor5songs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993301F31C30E884004F5B04 /* Build configuration list for PBXNativeTarget "Reproductor5songs" */;
+			buildPhases = (
+				993301DD1C30E884004F5B04 /* Sources */,
+				993301DE1C30E884004F5B04 /* Frameworks */,
+				993301DF1C30E884004F5B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reproductor5songs;
+			productName = Reproductor5songs;
+			productReference = 993301E11C30E884004F5B04 /* Reproductor5songs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993301D91C30E884004F5B04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = DDS.media;
+				TargetAttributes = {
+					993301E01C30E884004F5B04 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 993301DC1C30E884004F5B04 /* Build configuration list for PBXProject "Reproductor5songs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993301D81C30E884004F5B04;
+			productRefGroup = 993301E21C30E884004F5B04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993301E01C30E884004F5B04 /* Reproductor5songs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993301DF1C30E884004F5B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993301EF1C30E884004F5B04 /* LaunchScreen.storyboard in Resources */,
+				993302091C30F4BB004F5B04 /* song2.jpg in Resources */,
+				993302071C30F4B1004F5B04 /* rihanna.jpg in Resources */,
+				9933020B1C30F4C3004F5B04 /* coldplay.jpg in Resources */,
+				993301EC1C30E884004F5B04 /* Assets.xcassets in Resources */,
+				993302031C30F4A0004F5B04 /* linkin-park.jpg in Resources */,
+				993301F71C30F0D5004F5B04 /* In The End Linkin Park.mp3 in Resources */,
+				993301EA1C30E884004F5B04 /* Main.storyboard in Resources */,
+				993301FB1C30F0EE004F5B04 /* Stay Rihanna.mp3 in Resources */,
+				993301F91C30F0E1004F5B04 /* Creep Radiohead.mp3 in Resources */,
+				993302011C30F2A5004F5B04 /* Blur - Song 2.mp3 in Resources */,
+				993301FD1C30F0F6004F5B04 /* Coldplay The Scientist.mp3 in Resources */,
+				993302051C30F4A8004F5B04 /* radiohead.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993301DD1C30E884004F5B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993301E71C30E884004F5B04 /* ViewController.swift in Sources */,
+				993301E51C30E884004F5B04 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		993301E81C30E884004F5B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993301E91C30E884004F5B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		993301ED1C30E884004F5B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				993301EE1C30E884004F5B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		993301F11C30E884004F5B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		993301F21C30E884004F5B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		993301F41C30E884004F5B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reproductor5songs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = media.dds.Reproductor5songs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		993301F51C30E884004F5B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Reproductor5songs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = media.dds.Reproductor5songs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993301DC1C30E884004F5B04 /* Build configuration list for PBXProject "Reproductor5songs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993301F11C30E884004F5B04 /* Debug */,
+				993301F21C30E884004F5B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993301F31C30E884004F5B04 /* Build configuration list for PBXNativeTarget "Reproductor5songs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993301F41C30E884004F5B04 /* Debug */,
+				993301F51C30E884004F5B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 993301D91C30E884004F5B04 /* Project object */;
+}
